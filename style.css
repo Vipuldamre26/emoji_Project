@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1.4rem;
+    min-height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section1 h2{
+    font-size: 3rem;
+    margin: 0.6rem;
+}
+
+.searching{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+
+input{
+    height: 3rem;
+    width: 26rem;
+    border-radius: 10px;
+    margin: 0 1rem;
+    padding: 10px;
+    border: none;
+}
+
+button{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5rem;
+    transition: 0.3s ease-in-out;
+    margin: 1rem;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:hover{
+    height: 3.3rem;
+    width: 10.6rem;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+hr{
+    width: 968;
+    margin: 2rem auto;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 14rem;
+    font-size: 1.4rem;
+    width: 330px;
+    flex-wrap: wrap;
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.276);
+}
+
+.emoji{
+    font-size: 3rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.emoji:hover{
+    transition: 0.5s transform ease-in-out;
+    font-size: 4rem;
+    transform: rotate(32deg);
+}
+
+.section2 tr td{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+
+.parent {
+    display: flex;
+    /* grid-template-columns: repeat(5, 1fr); */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
